@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAYE KIRTASİYE FOTOKOPİ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0d0f12;
+      color: #e5e5e5;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f') center/cover no-repeat;
+      padding: 80px 20px;
+      text-align: center;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 2;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 20px;
+      color: #dddddd;
+    }
+    nav {
+      background: #16191f;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+    nav a {
+      color: #e5e5e5;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+    nav a:hover {
+      color: #4da3ff;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #ffffff;
+      font-size: 28px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1b1f27;
+      border-radius: 14px;
+      padding: 25px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.6);
+      transition: 0.25s;
+      text-align: center;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+    }
+    .card-icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    .card h3 {
+      margin: 0;
+      color: #ffffff;
+      font-size: 20px;
+    }
+    .contact-box {
+      background: #1b1f27;
+      border-radius: 14px;
+      padding: 25px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.6);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111318;
+      color: #999;
+      margin-top: 50px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      background: #25D366;
+      color: white;
+      padding: 16px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+      transition: 0.2s;
+    }
+    .whatsapp-float:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#hizmet">Hizmetler</a>
+  <a href="#iletisim">İletişim</a>
+</nav>
+
+<header>
+  <h1>PAYE KIRTASİYE FOTOKOPİ</h1>
+  <p>Hızlı Çıktı • Fotokopi • Ciltleme • Öğrenci Dostu Hizmet</p>
+</header>
+
+<section class="section" id="hizmet">
+  <h2>Hizmetlerimiz</h2>
+  <div class="services">
+    <div class="card">
+      <div class="card-icon">📄</div>
+      <h3>Fotokopi</h3>
+      <p>Siyah-beyaz ve renkli fotokopi hizmeti.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🖨️</div>
+      <h3>Çıktı Alma</h3>
+      <p>PDF, Word, mail üzerinden hızlı çıktı.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">📚</div>
+      <h3>Ciltleme</h3>
+      <p>Spiral ve termal ciltleme hizmeti.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🪪</div>
+      <h3>Laminasyon</h3>
+      <p>Kimlik, belge, sertifika laminasyon.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🛒</div>
+      <h3>Kırtasiye Ürünleri</h3>
+      <p>Defter, kalem, dosya ve diğer okul ürünleri.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="iletisim">
+  <h2>İletişim</h2>
+  <div class="contact-box">
+    <p><strong>Telefon:</strong> 0553 900 15 12</p>
+    <p><strong>Adres:</strong> DOĞU KAMPÜSÜ İİBF İÇERİSİ, Çünür, SÜLEYMAN DEMİREL ÜNİVERSİTESİ B-BLOK, 32200 Merkez / Isparta</p>
+    <p><strong>Google Maps:</strong> (Harita Linki Yakında Eklenecek)</p>
+  </div>
+</section>
+
+<a class="whatsapp-float" href="https://wa.me/905539001512">WhatsApp</a>
+
+<footer>
+  © 2025 PAYE KIRTASİYE FOTOKOPİ
+</footer>
+
+</body>
+</html>
 
